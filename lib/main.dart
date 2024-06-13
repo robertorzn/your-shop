@@ -4,11 +4,11 @@ import 'package:your_store/pages/menu_page.dart';
 import 'package:your_store/pages/quest_pedido.dart';
 
 void main() {
-  runApp(const App());
+  runApp(const MyApp());
 }
 
-class App extends StatelessWidget {
-  const App({Key? key}) : super(key: key);
+class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
 
   // This widget is the root of your application.
   @override
